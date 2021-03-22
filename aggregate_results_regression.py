@@ -133,7 +133,7 @@ def make_table_entry(values_all, metric, minimize=True, round=2, raw=True):
             
 def aggregate_results(name, modes = ["single", "ens", "virt"], 
                       algorithms = ['sgb-fixed', 'sglb-fixed'], num_models = 10, 
-                      raw=False, measure=None):
+                      raw=False):
     
     X, y, index_train, index_test, n_splits = load_regression_dataset(name)
     

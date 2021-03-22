@@ -206,7 +206,7 @@ def generate_rf_ensemble_regression(dataset_name, X, y, index_train, index_test,
             joblib.dump(model, "results/models/" + dataset_name + "_" + "rf" + "_f" + str(fold) + "_" + str(i), compress=compress)
         
 def generate_rf_ensemble_classification(dataset_name, num_models=10, 
-                                        n_estimatros = 1000, compress=3, 
+                                        n_estimators = 1000, compress=3, 
                                         n_jobs=-1, max_depth=10):
 
     X_train, y_train, X_test, y_test, _ = process_classification_dataset(dataset_name)
