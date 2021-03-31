@@ -4,7 +4,7 @@ This is a supplementary code for our paper:
 
 [Uncertainty in Gradient Boosting via Ensembles](https://openreview.net/pdf?id=1Jv6b0Zq3qi)
 <br>
-Andrey Malinin, Liudmila Prokhorenkova, Aleksei Ustimenko (ICLR 2020)
+Andrey Malinin, Liudmila Prokhorenkova, Aleksei Ustimenko (ICLR 2021)
 
 Datasets can be found here: https://drive.google.com/file/d/1btIDCqubKZsPNcB7KKJmFcNj8LQZa-4w/view?usp=sharing
 
