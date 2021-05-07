@@ -91,7 +91,7 @@ def main():
 
     id_entropy = entropy(id_probs)
     ood_entropy = entropy(ood_probs)
-    print(id_probs.shape, ood_probs.shape, id_entropy.shape, ood_entropy.shape)
+
     aucs = []
     for m in range(args.n_models):
         auc = ood_detect(domain_labels, id_entropy[:,m], ood_entropy[:,m], mode='ROC')

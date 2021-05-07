@@ -2,7 +2,6 @@
 
 # Download KDD dataset
 URLs=(
-    "http://kdd.ics.uci.edu/databases/kddcup99/typo-correction.txt"
     "http://kdd.ics.uci.edu/databases/kddcup99/kddcup.data.gz"
     "http://kdd.ics.uci.edu/databases/kddcup99/corrected.gz"
 )
@@ -37,5 +36,5 @@ git clone https://github.com/yandex-research/GBDT-uncertainty.git
 
 mkdir model
 
-python gbdt_uncertainty/kdd/train_sglb.py ./ model/ --n_models 2 --lr 0.15 --n_iters 100 --n_objects 10000
-python gbdt_uncertainty/kdd/eval_sglb.py ./ model --n_models 2 > model/results.txt
+python GBDT-uncertainty/gbdt_uncertainty/kdd/train_sglb.py ./ model/ --n_models 2 --lr 0.15 --n_iters 100 --n_objects 10000
+python gGBDT-uncertainty/gbdt_uncertainty/kdd/eval_sglb.py ./ model --n_models 2 > model/results.txt
