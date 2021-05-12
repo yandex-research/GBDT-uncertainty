@@ -30,6 +30,13 @@ Classification:
 
 Options: ```nll_error```, ```prr_auc```, ```rf_nll_error```, ```rf_prr_auc```
 
-#### Synthetic experiment on regression dataset
+#### Synthetic experiments
 
 ```synthetic_regression.ipynb```
+
+```synthetic_classification.ipynb```
+
+#### Additional experiment on KDD-99 Intrusion Detection dataset
+(not included in the paper)
+
+```gbdt_uncertainty/kdd/kdd.sh```
