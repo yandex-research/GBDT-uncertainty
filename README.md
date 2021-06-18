@@ -1,12 +1,10 @@
 # Uncertainty in Gradient Boosting via Ensembles
 
-This is a supplementary code for our paper:
+This is a supplementary code for our paper: ["Uncertainty in Gradient Boosting via Ensembles"](https://openreview.net/pdf?id=1Jv6b0Zq3qi) by Andrey Malinin, Liudmila Prokhorenkova, Aleksei Ustimenko (ICLR 2021)
 
-[Uncertainty in Gradient Boosting via Ensembles](https://openreview.net/pdf?id=1Jv6b0Zq3qi)
-<br>
-Andrey Malinin, Liudmila Prokhorenkova, Aleksei Ustimenko (ICLR 2021)
+See also our tutorials on uncertainty estimation with CatBoost: [blog post](https://towardsdatascience.com/tutorial-uncertainty-estimation-with-catboost-255805ff217e) with synthetic regression example, [blog post](https://towardsdatascience.com/estimating-uncertainty-with-catboost-classifiers-2d0b2229ad6) with practical classification example.
 
-Datasets can be found here: https://drive.google.com/file/d/1btIDCqubKZsPNcB7KKJmFcNj8LQZa-4w/view?usp=sharing
+Datasets can be found [here](https://drive.google.com/file/d/1btIDCqubKZsPNcB7KKJmFcNj8LQZa-4w/view?usp=sharing).
 
 #### Training models
 
@@ -16,7 +14,7 @@ First argument options: ```regression```, ```classification```, ```regression_rf
 <br>
 Second argument (for CatBoost only): 0 or 1 indicates whether to tune hyperparameters (or use already obtained ones)
 
-#### Aggregating results and getting tables in latex format.
+#### Aggregating results and getting tables in latex format
 
 Regression:
 
